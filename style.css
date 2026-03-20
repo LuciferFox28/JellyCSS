@@ -1,0 +1,11 @@
+@import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/ElegantFin-jellyfin-theme-build-latest-minified.css");
+@import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/assets/add-ons/media-bar-plugin-support-latest-min.css");
+
+:root{
+  --extraCardButtonsVisibility: block;
+  --overlayPlayButtonPosition: 50%;
+
+    /* Buttons */
+    --btnMiniPlayColor: rgb(66, 177, 232);
+    --btnMiniPlayBorderColor: rgb(66, 177, 232);
+}
