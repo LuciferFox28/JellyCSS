@@ -1,0 +1,18 @@
+@import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/fields/fields_border.css");
+@import url("https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/smallercast.css");
+@import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/ElegantFin-jellyfin-theme-build-latest-minified.css");
+@import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/assets/add-ons/media-bar-plugin-support-latest-min.css");
+
+:root {
+  --extraCardButtonsVisibility: block;
+  --overlayPlayButtonPosition: 50%;
+
+  /* Buttons */
+  --btnMiniPlayColor: rgb(36, 134, 231);
+  --btnMiniPlayBorderColor: rgb(36, 134, 231);
+}
+
+.watchlist-button[data-active="true"],
+.watchlist-icon[data-active="true"] {
+  color: rgb(109, 79, 204) !important;
+}
